@@ -1,125 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ted Lu</title>
-
-    <!-- custom css link -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload">
+    <!--
+      - custom css link
+      -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+      - google font link
+      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--
+      - meta SEO
+      -->
+    <meta name="description" content="Ted Lu is a 14-year-old civic hacker in g0v and Taiwan Open Education Develop Unit, also a medical imaging researcher. Located in Taipei, Taiwan. ">
+    <meta name="author" content="Ted Lu">
+    <meta property="og:image" content="https://sax-ted.github.io/assets/images/my-avatar.jpg">
+    <meta property="og:description" content="Ted Lu is a 14-year-old civic hacker in g0v and Taiwan Open Education Develop Unit, also a medical imaging researcher. Located in Taipei, Taiwan. ">
+    <meta property="og:title" content="Mozilla Developer Network">
   </head>
-
   <body>
-    <!-- #MAIN -->
-
+    <!--
+      - #MAIN
+      -->
     <main>
-      <!-- #SIDEBAR -->
-
+      <!--
+        - #SIDEBAR
+        -->
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.jpg"
-              alt="Ted Lu"
-              width="80"
-              style="border-radius: 10px"
-            />
+            <img src="./assets/img/my-avatar.jpg" alt="Ted Lu" width="80" style="border-radius: 10px">
           </figure>
-
           <div class="info-content">
             <h1 class="name" title="Ted Lu">Ted Lu</h1>
-
             <p class="title">Founder/data engineer of TOEDU</p>
           </div>
-
           <button class="info_more-btn" data-sidebar-btn>
             <span>Show Contacts</span>
-
             <ion-icon name="chevron-down"></ion-icon>
           </button>
         </div>
-
         <div class="sidebar-info_more">
           <div class="separator"></div>
-
           <ul class="contacts-list">
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Email</p>
-
-                <a href="mailto:ted.lu.tw@go.edu.tw" class="contact-link">
-                  ted.lu.tw@go.edu.tw
-                </a>
+                <a href="mailto:ted.lu.tw@go.edu.tw" class="contact-link">ted.lu.tw@go.edu.tw</a>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
-
-                <a href="tel:+886970234000" class="contact-link">
-                  +886 0970-234-000
-                </a>
+                <a href="tel:+886970234000" class="contact-link">+886 0970-234-000</a>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="calendar-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Birthday</p>
-
                 <time datetime="2008-01-11">January 11, 2008</time>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="location-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Location</p>
-
                 <address>Taipei, Taiwan</address>
               </div>
             </li>
           </ul>
-
           <div class="separator"></div>
-
           <ul class="social-list">
             <li class="social-item">
               <a href="https://github.com/Sax-Ted" class="social-link">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
-
             <li class="social-item">
               <a href="https://twitter.com/ted_lu_tw" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
-
             <li class="social-item">
               <a href="https://g.dev/tedlu" class="social-link">
                 <ion-icon name="logo-google"></ion-icon>
@@ -128,402 +107,291 @@
           </ul>
         </div>
       </aside>
-
-      <!-- #main-content -->
-
+      <!--
+        - #main-content
+        -->
       <div class="main-content">
-        <!-- #NAVBAR -->
-
+        <!--
+          - #NAVBAR
+          -->
         <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link="about">
-                About
-              </button>
+              <button class="navbar-link  active" data-nav-link>About</button>
             </li>
-
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link="resume">Resume</button>
+              <button class="navbar-link" data-nav-link>Resume</button>
             </li>
-
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link="contact">
-                Contact
-              </button>
+              <button class="navbar-link" data-nav-link>Contact</button>
             </li>
           </ul>
         </nav>
-
-        <!-- #ABOUT -->
-
-        <article class="about active" data-page="about">
+        <!--
+          - #ABOUT
+          -->
+        <article class="about  active" data-page="about">
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
-
           <section class="about-text">
             <p>
-              I'm a 14-year-old civic hacker from Taipei, Taiwan, working with
-              g0v.tw and Taiwan Open Education Develop Unit. I enjoy finding and
-              implementing the solution for issues we're facing.
+              I'm a 14-year-old civic hacker from Taipei, Taiwan, working with g0v.tw and Taiwan Open Education Develop Unit. I enjoy finding and implementing the solution for issues we're facing.
             </p>
-
             <p>
-              Also a medical imaging researcher, that focus on the deep learning
-              neural networks' development of neuroimage analysis and diasnosis.
-              Currently working on a new method for analyzing the lesions of
-              multiple sclerosis. I'm self studying neuroscience and neurology,
-              preparing for my aim as becoming a neurology researcher.
+              Also a medical imaging researcher, that focus on the deep learning neural networks' development of neuroimage analysis and diasnosis. Currently working on a new method for analyzing the lesions of multiple sclerosis.
+              I'm self studying neuroscience and neurology, preparing for my aim as becoming a neurology researcher.
             </p>
           </section>
-
-          <!-- service -->
-
+          <!--
+            - service
+            -->
           <section class="service">
             <h3 class="h3 service-title">What i'm doing</h3>
-
             <ul class="service-list">
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="hardware-chip-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="hardware-chip-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Hardware Development</h4>
-
                   <p class="service-item-text">
                     The most modern hardware design and development.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="code-slash-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="code-slash-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Web development</h4>
-
                   <p class="service-item-text">
                     High-quality development of sites at the professional level.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="laptop-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="laptop-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Software development</h4>
-
                   <p class="service-item-text">
-                    Professional development of applications for desktop
-                    devices.
+                    Professional development of applications for desktop devices.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="camera-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="camera-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Photography</h4>
-
                   <p class="service-item-text">
-                    I make high-quality photos of any category at a professional
-                    level.
+                    I make high-quality photos of any category at a professional level.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="analytics-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="analytics-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">ML/DL</h4>
-
                   <p class="service-item-text">
-                    Machine learning/deep learning development of
-                    re-implementing, structure and pipeline.
+                    Machine learning/deep learning development of re-implementing, structure and pipeline.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="film-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="film-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Video producing</h4>
-
                   <p class="service-item-text">
                     Capturing, editing to producing of video projects.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="musical-notes-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="musical-notes-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Audio producing</h4>
-
                   <p class="service-item-text">
-                    Audio recording, mixing to creating. A complete pipeline for
-                    publishing your recordings.
+                    Audio recording, mixing to creating. A complete pipeline for publishing your recordings.
                   </p>
                 </div>
               </li>
-
               <li class="service-item">
                 <div class="service-icon-box">
-                  <ion-icon
-                    name="bar-chart-outline"
-                    style="font-size: 50px; color: #fec461"
-                  ></ion-icon>
+                  <ion-icon name="bar-chart-outline" style="font-size: 50px; color: #fec461"></ion-icon>
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Business analysis</h4>
-
                   <p class="service-item-text">
-                    Using several technique and tools to help business
-                    understand the strength and weakness for improving.
+                    Using several technique and tools to help business understand the strength and weakness for improving.
                   </p>
                 </div>
               </li>
             </ul>
           </section>
         </article>
-
-        <!-- #RESUME -->
-
+        <!--
+          - #RESUME
+          -->
         <article class="resume" data-page="resume">
           <header>
             <h2 class="h2 article-title">Resume</h2>
           </header>
-
           <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
                 <ion-icon name="briefcase-outline"></ion-icon>
               </div>
-
               <h3 class="h3">Experience</h3>
             </div>
-
             <ol class="timeline-list">
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Founder/Data Engineer</h4>
-
                 <span>06/2021 - Present</span>
-
-                <p class="timeline-text">Taiwan Open Education Develop Unit</p>
+                <p class="timeline-text">
+                  Taiwan Open Education Develop Unit
+                </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Technical Advisor</h4>
-
                 <span>05/2022 - Present</span>
-
-                <p class="timeline-text">Lipoic</p>
+                <p class="timeline-text">
+                  Lipoic
+                </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Writer/Podcast Producer</h4>
-
                 <span>03/2021 - Present</span>
-
-                <p class="timeline-text">Init KaoBei Engineer</p>
+                <p class="timeline-text">
+                  Init KaoBei Engineer
+                </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Conference Streaming</h4>
-
                 <span>06/2021 - 08/2021</span>
-
-                <p class="timeline-text">COSCUP 2021</p>
+                <p class="timeline-text">
+                  COSCUP 2021
+                </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Conference Streaming</h4>
-
                 <span>06/2021 - 08/2021</span>
-
-                <p class="timeline-text">COSCUP 2021</p>
+                <p class="timeline-text">
+                  COSCUP 2021
+                </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Founder</h4>
-
                 <span>01/2020 - 05/2020</span>
-
-                <p class="timeline-text">GlobSec</p>
+                <p class="timeline-text">
+                  GlobSec
+                </p>
               </li>
             </ol>
           </section>
-
           <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
               </div>
-
               <h3 class="h3">Education</h3>
             </div>
-
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  New Taipei Municiple Yonghe Junior High School
-                </h4>
-
+                <h4 class="h4 timeline-item-title">New Taipei Municiple Yonghe Junior High School</h4>
                 <span>2020 - Present</span>
               </li>
-
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  New Taipei Zhonghe Elementary School
-                </h4>
-
+                <h4 class="h4 timeline-item-title">New Taipei Zhonghe Elementary School</h4>
                 <span>2014 - 2020</span>
               </li>
             </ol>
           </section>
         </article>
-
-        <!-- #CONTACT -->
-
+        <!--
+          - #CONTACT
+          -->
         <article class="contact" data-page="contact">
           <header>
             <h2 class="h2 article-title">Contact</h2>
           </header>
-
           <ul class="contacts-list">
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Email</p>
-
-                <a href="mailto:ted.lu.tw@go.edu.tw" class="contact-link">
-                  ted.lu.tw@go.edu.tw
-                </a>
+                <a href="mailto:ted.lu.tw@go.edu.tw" class="contact-link">ted.lu.tw@go.edu.tw</a>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
-
-                <a href="tel:+886970234000" class="contact-link">
-                  +886 0970-234-000
-                </a>
+                <a href="tel:+886970234000" class="contact-link">+886 0970-234-000</a>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="calendar-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Birthday</p>
-
                 <time datetime="2008-01-11">January 11, 2008</time>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="location-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Location</p>
-
                 <address>Taipei, Taiwan</address>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="logo-discord"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Discord</p>
-
-                <a class="contact-link">@Ted 顥天#7703</a>
+                <a href="https://discord.com/users/787493780902117397" class="contact-link">@Ted 顥天#7703</a>
               </div>
             </li>
-
             <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="logo-twitter"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Twitter</p>
-
-                <a href="https://twitter.com/ted_lu_tw" class="contact-link">
-                  @ted_lu_tw
-                </a>
+                <a href="https://twitter.com/ted_lu_tw" class="contact-link">@ted_lu_tw</a>
               </div>
             </li>
           </ul>
         </article>
       </div>
     </main>
-
-    <!-- custom js link -->
+    <!--
+      - custom js link
+      -->
     <script src="./assets/js/script.js"></script>
-
-    <!-- ionicon link -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <!--
+      - ionicon link
+      -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

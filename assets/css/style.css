@@ -6,6 +6,10 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+@font-face {
+  font-display: optional;
+}
+
 :root {
   /**
    * colors
