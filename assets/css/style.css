@@ -585,6 +585,13 @@ main {
   margin-bottom: 7px;
 }
 
+.timeline-item-title-homepage {
+  font-size: var(--fs-6);
+  line-height: 1.3;
+  margin-bottom: 7px;
+  color: var(--vegas-gold);
+}
+
 .timeline-list span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
